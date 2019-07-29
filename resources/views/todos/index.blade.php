@@ -13,7 +13,7 @@
            <ul class="list-group">
              <li class="list-group-item"> 
 
-              {{ $todo->name }}
+              {{ $todo->name <button class="btn btn-primary">View </button> }}
 
              </li>
 
