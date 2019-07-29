@@ -4,8 +4,8 @@
 <h1 class="text=center my-5"> TODOS PAGE </h1>
 
 @foreach($todos as $todo)
-   <ul>
-    <li> 
+   <ul class="list-group">
+    <li class="list-group-item"> 
 
     {{ $todo->name }}
 
