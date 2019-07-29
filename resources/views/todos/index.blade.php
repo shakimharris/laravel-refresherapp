@@ -15,7 +15,7 @@
 
               {{ $todo->name }} 
 
-              <button class="btn btn-primary btn-sm">View </button>
+              <button class="btn btn-primary btn-sm float-right">View </button>
 
              </li>
 
