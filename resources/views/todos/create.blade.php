@@ -20,6 +20,11 @@
              <div class="form-group">
               <textarea name="description" placeholder="Description" id="" cols="30" rows="10" class="form-control"></textarea>
               </div>
+
+              <div class="form-group">
+               <button class="btn btn-info">Create todo</button> 
+
+               </div>
              
                    </div>
                   </div>
