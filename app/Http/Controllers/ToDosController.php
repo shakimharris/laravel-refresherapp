@@ -32,10 +32,13 @@ class ToDosController extends Controller
 
         $todo->name = $data['name'];
 
-        $todo-> description = $data['description'];
+        $todo->description = $data['description'];
 
+        $todo->completed = false;
 
         $todo->save();
+
+        return redirect('/todos');
     
     }
 }
