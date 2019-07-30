@@ -25,11 +25,11 @@
           </ul>
          </div>
         @endif
-        <form action="/store-todos" method="POST">
+        <form action="/update-todos" method="POST">
          @csrf
          <div class="form-group">
     
-           <input type="text" class="form-control" placeholder="Name" name="name">
+           <input type="text" class="form-control" placeholder="Name" name="name" value=" {{ todo->name }}">
                         </div>
              <div class="form-group">
               <textarea name="description" placeholder="Description" id="" cols="30" rows="10" class="form-control"></textarea>
