@@ -12,10 +12,11 @@
        <div class="col-md-8">
         @if($errors->any())
          <div class="alert alert-danger">
-          
+          <ul class="list-group">
           @foreach($errors->all() as $error)
 
           @endforeach
+          </ul>
          </div>
         @endif
         <form action="/store-todos" method="POST">
