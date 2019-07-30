@@ -1,8 +1,18 @@
-@extends('layout')
+@extends('layout.app')
 
 
 @section('content')
 
-{{ $todo->id }}
+<form action="">
 
-@endsection('content')
+ <div class="form-group">
+    
+    <input type="text" class="form-control" name="name">
+
+
+    </div>
+
+  </form> 
+
+
+@endsection
