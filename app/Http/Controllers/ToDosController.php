@@ -25,7 +25,17 @@ class ToDosController extends Controller
         return view('todos.create');
     }
     public function store(){
-        dd(request());
+
+        $data = request()->all();
+
+        $todo = new Todo();
+
+        $todo->name = $data['name'];
+
+        $todo-> description = $data['description'];
+
+
+        $todo->save();
     
     }
 }
