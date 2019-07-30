@@ -25,4 +25,4 @@ Route::post('store-todos', 'ToDosController@store');
 
 Route::get('/todos/{todoid}/edit', 'ToDosController@edit');
 
-Route::post('update-todos', 'ToDosController@update');
+Route::post('/todos/{todoid}/update-todos', 'ToDosController@update');
