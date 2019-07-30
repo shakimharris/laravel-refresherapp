@@ -14,9 +14,13 @@
 
          <div class="form-group">
     
-           <input type="text" class="form-control" name="name">
-                    
-                   </form> 
+           <input type="text" class="form-control" placeholder="Name" name="name">
+                        </div>
+                       </form> 
+             <div class="form-group">
+              <textarea name="description" id="" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+             
                    </div>
                   </div>
                </div>
