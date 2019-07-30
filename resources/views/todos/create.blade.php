@@ -10,6 +10,14 @@
      <div class="card-body">
       <div class="row justify-content-center">
        <div class="col-md-8">
+        @if($errors->any())
+         <div class="alert alert-danger">
+          
+          @foreach($errors->all() as $error)
+
+          @endforeach
+         </div>
+        @endif
         <form action="/store-todos" method="POST">
          @csrf
          <div class="form-group">
