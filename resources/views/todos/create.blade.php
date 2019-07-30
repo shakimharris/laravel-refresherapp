@@ -3,7 +3,7 @@
 
 @section('content')
 
- <h1 class="text-center">Create Todos </h1>
+ <h1 class="text-center my-5">Create Todos </h1>
   <div class="row justify-content-center">
    <div class="col-md-8">
 <form action="">
