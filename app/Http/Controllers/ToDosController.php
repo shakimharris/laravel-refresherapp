@@ -15,9 +15,9 @@ class ToDosController extends Controller
         return view('todos.index')->with('todos', Todo::all());
     }
 
-    public function show ($todoId) {
+    public function show (Todo $todo) {
 
-        return view('todos.show')->with('todo', Todo::find($todoId));
+        return view('todos.show')->with('todo', $todo);
 
     }
 
