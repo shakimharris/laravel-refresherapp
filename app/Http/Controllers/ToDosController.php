@@ -57,4 +57,18 @@ class ToDosController extends Controller
         return view('todos.edit')->with('todo', $todo);
 
     }
+
+    public function update()
+    {
+
+        $this->validate(request(), [
+        
+            'name' => 'required|min:6|max:9',
+            'description' => 'required', 
+        ]);
+        
+        $data = request()->all();
+
+
+    }
 }

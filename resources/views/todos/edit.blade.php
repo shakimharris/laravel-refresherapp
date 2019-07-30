@@ -25,7 +25,7 @@
           </ul>
          </div>
         @endif
-        <form action="/update-todos" method="POST">
+        <form action="/todos/{{ $todo->id }}/update-todos" method="POST">
          @csrf
          <div class="form-group">
     
