@@ -19,4 +19,4 @@ Route::get('todos', 'ToDosController@index');
 
 Route::get('todos/{todo}', 'ToDosController@show');
 
-Route::post('new-todos', 'ToDosController@create');
+Route::get('new-todos', 'ToDosController@create');
