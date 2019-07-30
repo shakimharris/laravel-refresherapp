@@ -15,7 +15,7 @@
 
               {{ $todo->name }} 
 
-              <button class="btn btn-primary btn-sm float-right"><a href="/todos/ {{ $todo->id }} "></a>View</button>
+              <a class="btn btn-primary btn-sm float-right" href="/todos/{{ $todo->id }}">View</a>
 
              </li>
 
