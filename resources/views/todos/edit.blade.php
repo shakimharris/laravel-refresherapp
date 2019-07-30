@@ -29,10 +29,10 @@
          @csrf
          <div class="form-group">
     
-           <input type="text" class="form-control" placeholder="Name" name="name" value=" {{ todo->name }}">
+           <input type="text" class="form-control" placeholder="Name" name="name" value=" {{ $todo->name }}">
                         </div>
              <div class="form-group">
-              <textarea name="description" placeholder="Description" id="" cols="30" rows="10" class="form-control"></textarea>
+              <textarea name="description" placeholder="Description" id="" cols="30" rows="10" class="form-control" value="{{ $todo->description }}"></textarea>
               </div>
 
               <div class="form-group text-center">
