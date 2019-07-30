@@ -23,9 +23,9 @@ class ToDosController extends Controller
 
     public function create() {
         return view('todos.create');
-
+    }
     public function store(){
         dd((request));
-    }
+    
     }
 }
