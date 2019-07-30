@@ -1,7 +1,6 @@
-<html>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
-<title>TODOS</title>
-<body>
+@extends('layout.app')
+
+@section('content')
 <h1 class="text=center my-5"> TODOS PAGE </h1>
 <div class="row justify-content-center">
  <div class="col-md-8.offset-md-2">
@@ -27,5 +26,4 @@
   </div>
   </div>
   </div>
-  </body>
-</html>
+@endsection
