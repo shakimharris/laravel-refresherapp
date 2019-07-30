@@ -28,7 +28,7 @@ class ToDosController extends Controller
 
         $this->validate(request(), [
         
-        'name' => 'required'|min:6|max:9,
+        'name' => 'required|min:6|max:9',
         'description' => 'required', 
         
         ]);
