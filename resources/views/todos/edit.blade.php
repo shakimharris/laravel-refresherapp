@@ -37,7 +37,7 @@
               </div>
 
               <div class="form-group text-center">
-               <button type="submit" class="btn btn-info">Create todo</button> 
+               <button type="submit" class="btn btn-info">Update todo</button> 
              
                </div>
                </form>
