@@ -10,7 +10,7 @@
      <div class="card-body">
       <div class="row justify-content-center">
        <div class="col-md-8">
-        <form action="">
+        <form action="/store-todos" method="POST">
 
          <div class="form-group">
     
