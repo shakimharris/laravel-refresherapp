@@ -54,7 +54,7 @@ class ToDosController extends Controller
      
         $todo = Todo::find($todoId);
 
-        return view('todos.edit')->('todo', $todo);
+        return view('todos.edit')->with('todo', $todo);
 
     }
 }
