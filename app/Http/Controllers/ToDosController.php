@@ -48,4 +48,13 @@ class ToDosController extends Controller
         return redirect('/todos');
     
     }
+
+    public function edit($todoId) 
+    {
+     
+        $todo = Todo::find($todoId);
+
+        return view('todos.edit')->('todo', $todo);
+
+    }
 }
