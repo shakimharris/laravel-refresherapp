@@ -32,8 +32,7 @@
            <input type="text" class="form-control" placeholder="Name" name="name" value=" {{ $todo->name }}">
                         </div>
              <div class="form-group">
-              <textarea name="description" placeholder="Description" id="" cols="30" rows="10" class="form-control">
-              {{ $todo->description }}
+              <textarea name="description" placeholder="Description" id="" cols="30" rows="10" class="form-control">{{ $todo->description }}
               </textarea>
               </div>
 
