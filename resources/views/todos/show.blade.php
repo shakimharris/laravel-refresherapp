@@ -1,8 +1,6 @@
-<html>
+@extends('layout.app')
 
-<body>
-
-<div class="container">
+@section('content')
  <h1 class="text-center my-5">
 {{ $todo->name }}
 </h1>
@@ -24,5 +22,4 @@
      </div>
     </div>
    </div>
-</body>
-</html>
+@endsection
